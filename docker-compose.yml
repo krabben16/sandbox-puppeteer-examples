@@ -1,0 +1,10 @@
+version: '3'
+services:
+  puppeteer-examples:
+    build:
+      context: ./infra
+    image: image-puppeteer-examples
+    container_name: container-puppeteer-examples
+    volumes:
+      - ./src:/home/src
+    tty: true
