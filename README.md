@@ -1,5 +1,7 @@
 # test-puppeteer-examples
 
+https://github.com/puppeteer/examples
+
 ```shell
 docker-compose up -d
 docker-compose exec puppeteer-examples bash
@@ -13,5 +15,5 @@ ln -s ./727972/chrome-linux ./latest
 
 cd /home/src
 mkdir output
-node lazyimages_without_scroll_events.js -u https://css-tricks.com/examples/LazyLoading/ -o output/result.html
+node lazyimages_without_scroll_events.js -u https://css-tricks.com/examples/LazyLoading/ -o output/result.html --diff output/page_diff.png
 ```
