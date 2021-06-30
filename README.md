@@ -1,5 +1,3 @@
-# test-puppeteer-examples
-
 https://github.com/puppeteer/examples
 
 ```shell
